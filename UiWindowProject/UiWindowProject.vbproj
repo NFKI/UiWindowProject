@@ -119,5 +119,11 @@
     </None>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PrjTeisendajaKomponent\UiWindowClass.vbproj">
+      <Project>{94168587-e5b9-4e66-9f58-087d5dc744f2}</Project>
+      <Name>UiWindowClass</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
